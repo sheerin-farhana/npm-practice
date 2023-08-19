@@ -28,7 +28,7 @@ const requestHandler = (request,response) => {
         });
     }
 
-    
+
     // response.setHeader('Content-Type', 'text/html');
     response.write('<html>');
     response.write('<head><title>My First Page</title><head>');
@@ -36,5 +36,6 @@ const requestHandler = (request,response) => {
     response.write('</hmtl');
     response.end();
 }
+
 
 module.exports = requestHandler;
